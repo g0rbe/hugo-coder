@@ -90,6 +90,11 @@
     {{ end }}
 
     {{ hugo.Generator }}
+
+    {{ if and .Site.Params.googleAds .Site.Params.googleAds.gtag }}
+      {{- partial "analytics/googleads" . -}}
+    {{ end }}
+
   </head>
 
   {{ $csClass := "colorscheme-light" }}

@@ -80,6 +80,9 @@ disqusShortname = "yourdiscussshortname"
 [params.cloudflare]
     token = "token"
 
+[params.googleAds]
+    gtag = "AW-607053510"
+
 [taxonomies]
   category = "categories"
   series = "series"
